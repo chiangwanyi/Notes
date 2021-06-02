@@ -22,7 +22,9 @@
 
 TCP是一种**面向连接的**传输层协议，提供**可靠的**传输服务，其报文结构如下图所示。
 
-<img src="../../../assets/image-20210529101843220.png" alt="image-20210529101843220" style="zoom:80%;" />
+<img src="../../../assets/image-20210602144752451.png" alt="image-20210602144752451" style="zoom:80%;" />
+
+TCP报文的长度为**20字节**。
 
 ### TCP会话的建立：三次握手
 ```sequence
@@ -95,5 +97,7 @@ client -> server: Seq=675, Ack=341, Ctl=ACK
 
 UDP是一种**面向无连接**的传输层协议，传输的可靠性无法保证。UDP不提供重传机制，占用资源小，处理效率高，对于语言、视频等传输业务，通常使用UDP进行封装。
 
-<img src="../../../assets/image-20210530103343651.png" alt="image-20210530103343651" style="zoom:80%;" />
+<img src="../../../assets/image-20210602145300611.png" alt="image-20210602145300611" style="zoom:80%;" />
+
+UDP报文的长度为**8字节**。
 
