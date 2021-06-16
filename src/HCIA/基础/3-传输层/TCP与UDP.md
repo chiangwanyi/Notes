@@ -22,7 +22,7 @@
 
 TCP是一种**面向连接的**传输层协议，提供**可靠的**传输服务，其报文结构如下图所示。
 
-<img src="../../../assets/image-20210602144752451.png" alt="image-20210602144752451" style="zoom:80%;" />
+<img src="../../../../assets/image-20210602144752451.png" alt="image-20210602144752451" style="zoom:80%;" />
 
 TCP报文的长度为**20字节**。
 
@@ -33,7 +33,7 @@ TCP报文的长度为**20字节**。
 客户端->服务端: Seq=502, Ack=459,  Ctl=ACK
 ```
 
-<img src="../../../assets/image-20210529155306580.png" alt="image-20210529155306580" style="border:1px solid #000;" />
+<img src="../../../../assets/image-20210529155306580.png" alt="image-20210529155306580" style="border:1px solid #000;" />
 
 ### TCP会话的确认
 
@@ -60,7 +60,7 @@ server -> client: Seq=225, Ack=121, win=1
 
 
 
-<img src="../../../assets/image-20210530101235788.png" alt="image-20210530101235788" style="border:1px solid #000;" />
+<img src="../../../../assets/image-20210530101235788.png" alt="image-20210530101235788" style="border:1px solid #000;" />
 
 ### TCP会话的拥塞和流量控制
 
@@ -91,13 +91,13 @@ server -> client: Seq=340, Ack=675, Ctl=ACK, FIN
 client -> server: Seq=675, Ack=341, Ctl=ACK
 ```
 
-<img src="../../../assets/image-20210530101759753.png" alt="image-20210530101759753" style="border:1px solid #000;" />
+<img src="../../../../assets/image-20210530101759753.png" alt="image-20210530101759753" style="border:1px solid #000;" />
 
 ## UDP
 
 UDP是一种**面向无连接**的传输层协议，传输的可靠性无法保证。UDP不提供重传机制，占用资源小，处理效率高，对于语言、视频等传输业务，通常使用UDP进行封装。
 
-<img src="../../../assets/image-20210602145300611.png" alt="image-20210602145300611" style="zoom:80%;" />
+<img src="../../../../assets/image-20210602145300611.png" alt="image-20210602145300611" style="zoom:80%;" />
 
 UDP报文的长度为**8字节**。
 
