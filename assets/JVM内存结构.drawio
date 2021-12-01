@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T12:40:22.833Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="H5qizvLX9gJOlicwp97F" version="15.8.8" type="github"><diagram id="Yg9Bi9how6gpwLzA5V7u" name="第 1 页">5ZfbbqMwEIafxpetAHMwlyElrapGWm32IPXOgUlAdXDkOCXdp18bTAKBpO1W6a60V4Hfh4n9f/YMCI9Xu1tB19mUp8CQY6U7hG+Q49g4cNWPVl5qJQhwLSxFnppOB2GW/wIjWkbd5ilsOh0l50zm666Y8KKARHY0KgQvu90WnHWjrukSesIsoayv/sxTmdUqcYKDfgf5Mmsi235Yt6xo09msZJPRlJctCccIjwXnsn5a7cbA9OY1+1KPm5xo3f8xAYV8y4DvmfO4I8+PjPws7/xZeR9PJ1dmlmfKtmbB9z+mSkCxh4iPiKcfRjcoJCgOUBShEKPYR2GMiDLWsq99szj50uzYpsxXjBbqLVrwQhpLbV+9byQVjeBaSmB0DiyiydNS8G2RjjnjQrUVvB6eM9ZIyMGpByR1q2kEf4JWC3Hm2K8CmNgPeVEFbUmT1mQpLOiWqV2LzPJBSNid3Fd775bCHPgKpHhRXZoBxBhsCLdd8162ePGMlrVYwb4RqWF0uZ97H+6rYpoWS7W3+3heN1zQj2bjgWgO7gajTIIoqIRI7/ymjY56aC30IFVAvQMupwfXFGTGU6WNBFD1c1WhpnjyURTqhwijsGKOjFE0QvEERWNEiG4aKRwd3RQp0Wua1GlTCGJb0/QFxOoWita8kYUiNdjVs2uWXY3wCLfmVXTHGmdFN4l1/8O8p7luc+xZA6AfkbtYgJ8kQ+SmQTi3rLeCePoIn6TT6dJC+rTgcIgW74/YfD2aM8Sma306m7jHZoUWqXhRsCgcJhVBNhpZ51h4xXqw1bUVDFkf+gGm/oesd85b73UvCtK/KAKvb4Z97MbbrLetI++9Xrjg37iWwp71MynyYvmNzvWCjqyuEhPo+fQxLbNcwmxNE91aqpJHaZlcMZNsXoFhbgEGfwgGC4ilrqOPwIDPwxBcd3HwBvKGM2DQuSTVcea9Ntj92mPM6GZzUQdSCmQxeBP7CYH54pLH0T1K3APn8XMN6OfnyoAHTlMQ/4sNtvfXfejnojtQG9qUMZ7OQORsof3ugoQkMFyQzInnepcsSFz3cyuSo1uvn5UuX5Go18NnXt398LGM498=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-01T12:49:47.612Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4Ln95HRrSAupMBz-rxDT" version="15.8.8" type="github">
+  <diagram id="Yg9Bi9how6gpwLzA5V7u" name="第 1 页">
+    <mxGraphModel dx="1616" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-1" value="JVM 内存结构 1.6" style="swimlane;fontSize=16;startSize=40;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneLine=1;swimlaneFillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="210" y="160" width="850" height="360" as="geometry">
+            <mxRectangle x="50" y="70" width="130" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-2" value="Method Area - 方法区（概念）&#xa;PermGen - 永久代（实现）" style="swimlane;startSize=50;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Uh2Zx8vZl8WwH6SwJEMF-1" vertex="1">
+          <mxGeometry x="20" y="80" width="390" height="250" as="geometry">
+            <mxRectangle x="20" y="80" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-3" value="常量池" style="swimlane;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Uh2Zx8vZl8WwH6SwJEMF-2" vertex="1">
+          <mxGeometry x="25" y="78" width="175" height="140" as="geometry">
+            <mxRectangle x="100" y="85" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-9" value="StringTable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="Uh2Zx8vZl8WwH6SwJEMF-3" vertex="1">
+          <mxGeometry x="27.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-11" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Uh2Zx8vZl8WwH6SwJEMF-2" vertex="1">
+          <mxGeometry x="240" y="78" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-12" value="ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Uh2Zx8vZl8WwH6SwJEMF-2" vertex="1">
+          <mxGeometry x="240" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh2Zx8vZl8WwH6SwJEMF-13" value="Heap - 堆" style="swimlane;startSize=50;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="Uh2Zx8vZl8WwH6SwJEMF-1" vertex="1">
+          <mxGeometry x="440" y="80" width="390" height="250" as="geometry">
+            <mxRectangle x="25" y="55" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-1" value="JVM 内存结构 1.8" style="swimlane;fontSize=16;startSize=40;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneLine=1;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="487" y="551" width="670" height="408" as="geometry">
+            <mxRectangle x="50" y="70" width="130" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-7" value="Heap - 堆" style="swimlane;startSize=50;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-1">
+          <mxGeometry x="280" y="89" width="360" height="250" as="geometry">
+            <mxRectangle x="25" y="55" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-4" value="StringTable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-7">
+          <mxGeometry x="120" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-8" value="Method Area - 方法区（概念）" style="swimlane;labelBackgroundColor=none;fontSize=16;fillColor=#ffe6cc;startSize=50;dashed=1;strokeColor=#d79b00;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-1">
+          <mxGeometry x="20" y="126" width="240" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-2" value="本地内存" style="swimlane;startSize=50;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="30" y="551" width="430" height="409" as="geometry">
+            <mxRectangle x="20" y="80" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-9" value="Metaspace - 元空间（实现）" style="swimlane;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;startSize=40;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-2">
+          <mxGeometry x="183" y="69" width="225" height="321" as="geometry">
+            <mxRectangle x="100" y="85" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-5" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-9">
+          <mxGeometry x="53" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-6" value="ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-9">
+          <mxGeometry x="53" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-3" value="常量池" style="swimlane;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-9">
+          <mxGeometry x="25.5" y="230" width="175" height="68" as="geometry">
+            <mxRectangle x="100" y="85" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-11" value="其他进程" style="swimlane;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;startSize=40;fontColor=#333333;" vertex="1" parent="2lmS9ExBFsCyRe95wYFF-2">
+          <mxGeometry x="20" y="69" width="130" height="321" as="geometry">
+            <mxRectangle x="100" y="85" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lmS9ExBFsCyRe95wYFF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="2lmS9ExBFsCyRe95wYFF-8" target="2lmS9ExBFsCyRe95wYFF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
